@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript ehtolause (if .. else)</h2>
+<p>Tervehtiminen kelloajan mukaan:</p>
+<p id="swag"></p>
+<script>
+const tunti = new Date().getHours();
+alert("Kello on " + tunti);
+let tervehdys;
+if (tunti < 18) {
+  tervehdys = "Hyvää päivää!";
+} 
+else {
+  tervehdys = "Hyvää iltaa!";
+}
+document.getElementById("swag").innerHTML = tervehdys;
+</script>
+</body>
+</html>

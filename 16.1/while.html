@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+const kuukaudet = ["tammikuu", "helmikuu", "maaliskuu", "huhtikuu", "toukokuu", "kesäkuu", "heinäkuu", "elokuu", "syyskuu", "lokakuu", "marraskuu", "joulukuu"];
+
+let i = 0;
+let teksti = "";
+while (kuukaudet[i]) {
+  teksti += kuukaudet[i] + "<br>";
+  i++;
+}
+
+document.getElementById("demo").innerHTML = teksti;
+</script>
+
+</body>
+</html>
